@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 # Load your trained model
-model = load_model('trained.h5')
+model = load_model('trained.keras')
 
 # Define class names
 class_names = ['Potato___Early_blight', 'Potato___Late_blight', 'Potato___healthy'] # Replace with your actual class names
