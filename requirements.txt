@@ -6,3 +6,4 @@ matplotlib
 seaborn
 keras
 scikit-learn
+PIL
