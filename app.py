@@ -1,10 +1,11 @@
 import streamlit as st
 import tensorflow as tf
+from tf.keras.models import load_model
 from PIL import Image
 import numpy as np
 
 # Load your trained model
-model = tf.keras.models.load_model('trained.keras')
+model = load_model('trained.h5')
 
 # Define class names
 class_names = ['Potato___Early_blight', 'Potato___Late_blight', 'Potato___healthy'] # Replace with your actual class names
