@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 
 # Load your trained model
-model = load_model('trained.keras')
+model = load_model('./trained.keras')
 
 # Define class names
 class_names = ['Potato___Early_blight', 'Potato___Late_blight', 'Potato___healthy'] # Replace with your actual class names
